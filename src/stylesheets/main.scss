@@ -1,3 +1,63 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+// Nav Bar
+
+.padTop {
+    padding-top: 0;
+}
+
+.nav-logo {
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-space {
+    height: 95vh;
+}
+
+.marginL {
+    margin-left: 20%;
+}
+
+.padNone {
+    padding: 0;
+}
+
+.marginNone {
+    margin: 0;
+}
+
+.padTop2 {
+    padding-top: 15%;
+}
+
+.padTop3 {
+    padding-top: 7%;
+}
+
+.coloredText {
+    color: #100422;
+}
+
+.divBg {
+    background-color: #523588;
+}
+
+.spacingBoth {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.textBg {
+    background-image: url(../images/blob6.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.btn-primary {
+    background-color: #100422;
+}

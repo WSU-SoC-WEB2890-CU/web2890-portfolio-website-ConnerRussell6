@@ -3,25 +3,193 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio website</title>
+  <title>Russell Web</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Portfolio website ...">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+
 </head>
 
-<body>
+<body class="divBg">
   <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Portfolio Website
-  </h1>
+  <div class="nav-logo">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ">
+        <a class="navbar-brand fs-1 padTop mx-2 text-light" href="#">Russell</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active mx-3 fs-4 text-light" aria-current="page" href="index.html">Home/></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 fs-4 text-light" href="about.html">About/></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 fs-4 text-light" href="project.html">Projects/></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3 fs-4 text-light" href="contact.html">Contact/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-logo hero-space ">
+      <div class="space"></div>
+      <h1 class="text-light marginL padTop2">Hi, my name is <strong class="coloredText">Conner Russell</strong></h1>
+      <h2 class="hero-subtext mb-5 text-light marginL ">I design and develop websites</h2>
+      <a href=""><button class="btn text-light marginL fs-4 padNone">Let me show you...</button></a>
+    </div>
+  </div>
+
+  <div class="container pt-5">
+    <h1 class="text-light marginL m-5 fs-1 d-block bg-dark p-2">What I Provide</h1>
+    <div class="container spacingBoth">
+      <div class="row">
+        <div class="col">
+          <img src="./images/offer-1.2.png" alt="computer">
+        </div>
+        <div class="col padTop3">
+          <div class="bi bi-code-slash fs-1"></div>
+            <h3 class="text-light fs-2">Web Development</h3>
+            <p class="text-dark fs-5">
+              I am able to design your website from scratch and add any customization you would like. This allows for a fully custom site like no one else. You can control everything from color scheme to layout or allow me to have some creativity and design something unique for you.
+            </p>
+            <a href=""><button class="rounded-pill btn btn-primary text-light fs-4">Contact Me</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container spacingBoth ">
+      <div class="row ">
+        <div class="col padTop3">
+          <div class="bi bi-code-slash fs-1"></div>
+            <h3 class="text-light fs-2">Web Design</h3>
+            <p class="text-dark fs-5">
+              I don't just develop sites. I also like to help design them too. I am able to create beautiful desings to show what your future website could look like or even revamp an existing one.
+            </p>
+            <a href=""><button class="rounded-pill btn btn-primary text-light fs-4">Contact Me</button></a>
+        </div>
+        <div class="col">
+          <img src="./images/offer-2.png" alt="computer">
+        </div>
+      </div>
+    </div>
+
+    <div class="container spacingBoth ">
+      <div class="row ">
+        <div class="col">
+          <img src="./images/offer-3.png" alt="computer">
+        </div>
+        <div class="col padTop3">
+          <div class="bi bi-code-slash fs-1"></div>
+            <h3 class="text-light fs-2">Mobile, Tablet, and Web</h3>
+            <p class="text-dark fs-5">
+              I take pride in ensuring that all my projects are conveinetly sized for all layouts. It is important to make sure that it works on all three layouts. It wouldn't be a good site if it wasn't responesive.
+            </p>
+            <a href=""><button class="rounded-pill btn btn-primary text-light fs-4">Contact Me</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="text-light marginL m-5 fs-1 d-block bg-dark p-2">Learn More About Me Here</h1>
+    <div class="container text-center">
+      <div class="row spacingBoth">
+        <div class="col">
+          <img src="./images/about-1.png" alt="">
+        </div>
+        <div class="col padTop2 textBg">
+          <p class="text-dark fs-4 fw-bolder">You can learn why I decided to choose web design as my major and how I pride myself on making the highest quality products for all of my customers.</p>
+          <a href=""><button class="fw-bolder rounded-pill btn btn-primary text-light fs-4">Learn More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="text-light marginL m-5 fs-1 d-block bg-dark p-2">See My Projects</h1>
+    <div class="container text-center">
+      <div class="row spacingBoth">
+        <div class="col padTop2 textBg">
+          <p class="text-dark fs-4 fw-bolder ">Here you can see some of my previous work. Take a look around and see what I can do. You can even gather inspiration for some of your future designs.</p>
+          <a href=""><button class="fw-bolder rounded-pill btn btn-primary text-light fs-4">Learn More</button></a>
+        </div>
+        <div class="col">
+          <img src="./images/about-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="text-light marginL m-5 fs-1 d-block bg-dark p-2">Contact Me</h1>
+    <div class="container text-center">
+      <div class="row spacingBoth">
+        <div class="col">
+          <img src="./images/contact-1.png" alt="">
+        </div>
+        <div class="col padTop2 textBg">
+          <p class="fs-4 coloredText fw-bolder">Got questions? Perfect! Contact me and I'll help you design or develop any website for your needs</p>
+          <a href=""><button class="fw-bolder rounded-pill btn btn-primary text-light fs-4">Learn More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-5 bg-dark">
+    <hr class="text-dark">
+    <div class="">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col text-light d-flex align-items-center">
+              <i class="bi bi-geo-alt text-light" style="font-size: 2.5rem;"></i>
+              <p class="mt-3">Our Address: 300 S 200 E, Farmington, UT </p>
+            </div>
+            <div class="col text-light d-flex align-items-center justify-content-center">
+              <i class="bi bi-telephone text-light " style="font-size: 2.5rem;"></i>
+              <p class="ps-3 ">Call Us: 801-648-6468</p>
+            </div>
+            <div class="col text-light d-flex align-items-center justify-content-center">
+              <i class="bi bi-envelope text-light" style="font-size: 2.5rem;"></i>
+              <p class="ps-3 mt-3">Email Us: connerrussell@mail.weber.edu</p>
+            </div>
+            <div class="col text-light">
+              <div class="col text-light text-center d-flex justify-content-start">
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram text-light pe-3"
+                    style="font-size: 2.5rem;"></i></a>
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook text-light pe-3"
+                    style="font-size: 2.5rem;"></i></a>
+                <a href="https://twitter.com/"><i class="bi bi-twitter text-light pe-3" style="font-size: 2.5rem;"></i></a>
+                <a href="https://www.linkedin.com/"><i class="bi bi-linkedin text-light" style="font-size: 2.5rem;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center text-light pt-3">
+          <div class="row">
+            <div class="col">
+              <p class="">@ 2023 All Copyrights Reserved to Russell Web</p>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <p class="border-end border-2 pe-2">Privacy Policy</p>
+              <p class="ps-2">Terms & Conditions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-3 marginNone">&copy; 2023 by Russell Web Design Proudly by INX Scorp</p>
+  </footer>
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>
